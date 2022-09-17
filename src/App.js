@@ -1,39 +1,37 @@
 
 
 import React, { Component, useState } from "react";
-
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from './NavBar';
+import Cards from "./Cards";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Post from "./Post";
+<Route path='/post' element={<Post/>} />
+
 
 class App extends Component {
-
-
-
   render() {
-    
-    
     return (
-      
-
-        <div className="App">
-
-
-          <div>Hello</div>
-          <NavBar />
-
-          
-
-          
-          
-
-          <div className="content">
-           
-          </div>
+      <div className="App">
+        <NavBar />
+        <div className="d-flex align-items-center justify-content-center">
+          <Cards>
+          </Cards>
         </div>
+        <div className="d-flex align-items-center justify-content-center">
+          <Cards>
+          </Cards>
+        </div>
+        <div className="content">
 
-
-
+        </div>
+      </div>
     );
   }
 }
