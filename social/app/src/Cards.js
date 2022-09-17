@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import {
@@ -12,8 +12,16 @@ import Post from "./Post";
 
 function Cards(props) {
   const navigate = useNavigate();
-  const handleOnClick = useCallback(() => navigate('/post', { replace: true }), [navigate]);
-
+  const handleOnClick = useNavigate();
+  // const handleOnClick = useCallback(() => navigate('/post', { replace: true }), [navigate]);
+  const [counter, setCounter] = useState(0);
+  //increase counter
+  const increase = () => {
+    setCounter(count => count + 1);
+  };
+  const decrease = () => {
+    setCounter(count => count - 1);
+  };
   return (
     <>
       <div class="mt-2">
@@ -26,8 +34,12 @@ function Cards(props) {
               {props.title}
             </Card.Text>
             <div class="mr-2">
-              <Button variant="btn btn-success">Upvote</Button>
-              <Button variant="btn btn-danger">Downvote</Button>
+              <Button variant="btn btn-success" onClick={increase}>Upvote</Button>
+              <Button variant="btn btn-danger" onClick={decrease}>Downvote</Button>
+            </div>
+            <div>
+              <h5>Score: </h5>
+              <span className="counter__output">{counter}</span>
             </div>
           </Card.Body>
         </Card>

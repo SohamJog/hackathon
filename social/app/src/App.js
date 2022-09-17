@@ -1,4 +1,5 @@
 
+
 import {
   ConnectionProvider,
   WalletProvider,
@@ -8,6 +9,8 @@ import { Home } from "./home";
 
 const wallets = [getPhantomWallet()];
 const endPoint = "http://127.0.0.1:8899";
+
+
 
 import React, { Component, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
