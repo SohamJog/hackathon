@@ -5,33 +5,33 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from './NavBar';
 import Cards from "./Cards";
+import Home from "./Home";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
 import Post from "./Post";
-<Route path='/post' element={<Post/>} />
+<Route path='/post' element={<Post />} />
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <NavBar />
-        <div className="d-flex align-items-center justify-content-center">
-          <Cards>
-          </Cards>
-        </div>
-        <div className="d-flex align-items-center justify-content-center">
-          <Cards>
-          </Cards>
-        </div>
-        <div className="content">
+      <Router>
+        <div className="App">
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/home" element={<Home/>} />
+            <Route path="/post" element={<Post/>} />
+          </Routes>
 
+          <div className="content">
+          </div>
         </div>
-      </div>
+      </Router>
     );
   }
 }
