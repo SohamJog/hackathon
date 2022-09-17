@@ -1,5 +1,3 @@
-
-
 import React, { Component, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
