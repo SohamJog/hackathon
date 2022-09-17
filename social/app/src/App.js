@@ -1,4 +1,13 @@
 
+import {
+  ConnectionProvider,
+  WalletProvider,
+} from "@solana/wallet-adapter-react";
+import { getPhantomWallet } from "@solana/wallet-adapter-wallets";
+import { Home } from "./home";
+
+const wallets = [getPhantomWallet()];
+const endPoint = "http://127.0.0.1:8899";
 
 import React, { Component, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,19 +28,24 @@ import Post from "./Post";
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <NavBar />
-          <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/home" element={<Home/>} />
-            <Route path="/post" element={<Post/>} />
-          </Routes>
 
-          <div className="content">
+      <Router>
+        <ConnectionProvider endpoint={endPoint}>
+          <WalletProvider wallets={wallets} autoConnect>
+          <div className="App">
+            <NavBar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/post" element={<Post />} />
+            </Routes>
+
+            <div className="content">
+            </div>
           </div>
-        </div>
-      </Router>
+        </WalletProvider>
+      </ConnectionProvider>
+      </Router >
     );
   }
 }
