@@ -27,7 +27,7 @@ We aim to minimize **misinformation** and **trolling** through this incentivizat
 
 
 
-## What we did: 
+## What We Did: 
 We made use of the **Solana Blockchain** for our project. 
 
 Solana is one of the **fastest blockchains** out there with an estimated 50000 transactions-per-second  
