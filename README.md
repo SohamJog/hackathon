@@ -29,10 +29,14 @@ We aim to minimize **misinformation** and **trolling** through this incentivizat
 
 
 ## What we did: 
-We made use of the Solana Blockchain for our project. Solana is one of the fastest blockchains out there with an estimated 50000 transactions-per-second   
-In decentralized apps, the backend is handled by a SMART CONTRACT.  
-We coded on top of some example smart contracts provided by solana(specifically, their twitter smart contract). 
-You can find the smart contracts in social/programs/social 
+We made use of the **Solana Blockchain** for our project. 
 
-For the frontend, we used React.js 
-You can find the frontend code in social/app 
+Solana is one of the **fastest blockchains** out there with an estimated 50000 transactions-per-second  
+
+In decentralized apps, the backend is handled by a **SMART CONTRACT**. 
+
+We coded on top of some example smart contracts provided by solana(specifically, their twitter smart contract)  
+You can find the smart contracts in **social/programs/social** 
+
+For the frontend, we used React.js  
+You can find the frontend code in **social/app**
