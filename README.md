@@ -3,7 +3,7 @@
 # NestNews
 
 
-***A Decentralized Crowd-Sourced News Website*** 
+***A Decentralized Crowd-Sourced News Website:*** 
 This is a Blochain-Based website where you post news articles and people can vote on how credible the news resource is.
 
 ***Incentivizing everyone to post credible content:*** 
