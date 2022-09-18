@@ -15,7 +15,7 @@ Upvote if you want a voice to be heard:
 Downvote if something's clearly misinformation:
 
 
-Why NestNews
+## Why NestNews
 
 Run on a Blockchain: 
 Decentralized: You own your data, and don't worry about what big companies are doing with it
