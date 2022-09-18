@@ -2,7 +2,6 @@
 
 # NestNews
 
-
 ## A Decentralized Crowd-Sourced News Website:
 This is a ***Blockchain-Based*** website where you post news articles and people can vote on how credible the news resource is.
 
