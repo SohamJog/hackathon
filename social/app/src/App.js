@@ -1,17 +1,3 @@
-
-
-import {
-  ConnectionProvider,
-  WalletProvider,
-} from "@solana/wallet-adapter-react";
-import { getPhantomWallet } from "@solana/wallet-adapter-wallets";
-import { Home } from "./home";
-
-const wallets = [getPhantomWallet()];
-const endPoint = "http://127.0.0.1:8899";
-
-
-
 import React, { Component, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -25,10 +11,33 @@ import {
   Link
 } from "react-router-dom";
 import Post from "./Post";
-<Route path='/post' element={<Post />} />
+
+
+
+import {
+  ConnectionProvider,
+  WalletProvider,
+} from "@solana/wallet-adapter-react";
+import {
+  PublicKey,
+  Transaction,
+} from "@solana/web3.js";
+
+import { getPhantomWallet } from "@solana/wallet-adapter-wallets";
+//import { Home } from "./home";
+import { WalletName } from "@solana/wallet-adapter-wallets";
+import { useWallet } from "@solana/wallet-adapter-react";
+
+
+
+const wallets = [getPhantomWallet()];
+const endPoint = "http://127.0.0.1:8899";
+
 
 
 class App extends Component {
+  
+
   render() {
     return (
 
