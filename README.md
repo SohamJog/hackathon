@@ -17,9 +17,13 @@ We aim to minimize **misinformation** and **trolling** through this incentivizat
 
 ## Why Blockchain
 ***Decentralized*** - you own your own data.  
+
 ***Anonymous***, if you want it to be  
+
 ***Permissionless*** - Anyone can join. All voices need to be heard  
+
 ***Censorship Resistant***  
+
 ***Secure payments*** - Without relying on banks or other intermediaries 
 
 
