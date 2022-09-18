@@ -11,9 +11,9 @@ This is a Blochain-Based website where you post news articles and people can vot
 
 Upvoting works as tipping the author, thus incentivizing everyone to post credible resources. 
 
-Upvote if you want a voice to be heard:
+***Upvote if you want a voice to be heard:***
 
-Downvote if something's clearly misinformation:
+***Downvote if something's clearly misinformation:***
 
 
 ## Why NestNews
