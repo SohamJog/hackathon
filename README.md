@@ -21,7 +21,7 @@ We aim to minimize **misinformation** and **trolling** through this incentivizat
 
 ***Permissionless*** - Anyone can join. All voices need to be heard  
 
-***Censorship Resistant***  
+***Censorship Resistant***
 
 ***Secure payments*** - Without relying on banks or other intermediaries 
 
