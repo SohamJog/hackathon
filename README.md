@@ -1,6 +1,6 @@
 
 
-#### NestNews
+# NestNews
 
 
 **A Decentralized Crowd-Sourced News Website**
