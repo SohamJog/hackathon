@@ -18,7 +18,7 @@ Downvote if something's clearly misinformation:
 
 ## Why NestNews
 
-#### ***Run on a Blockchain:***
+***Run on a Blockchain:***
 Decentralized: You own your data, and don't worry about what big companies are doing with it
 Anonymous if you want it to be
 Permissionless
