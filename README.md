@@ -5,26 +5,24 @@
 
 ***A Decentralized Crowd-Sourced News Website:*** 
 This is a Blockchain-Based website where you post news articles and people can vote on how credible the news resource is.
-
-***Incentivizing everyone to post credible content:*** 
-Upvoting works as tipping the author, thus incentivizing everyone to post credible resources. 
-
-***Upvote if you want a voice to be heard:***
-
-***Downvote if something's clearly misinformation:***
+Users post news articles on the website. These articles are public and anyone can upvote/downvote your post.
+It is safe to assume that a majority of people don’t upvote/ downvote for no reason because there is an incentive structure involved. You pay to make a voice heard, you pay to tell the world if some article is clearly wrong, and you get PAID if the news you posted is deemed credible enough.
+We aim to minimize misinformation and trolling through this incentivization. 
 
 
-## Why NestNews
+Why Blockchain
+Decentralized - you own your own data. 
+Anonymous, if you want it to be
+Permissionless - Anyone can join. All voices need to be heard
+Censorship resistant 
+Secure payments - Without relying on banks or other intermediaries
 
-### Run on a Blockchain:
 
-***Decentralized:*** You own your data, and don't worry about what big companies are doing with it  
-***Anonymous*** if you want it to be  
-***Permissionless***
+What we did: 
+We made use of the Solana Blockchain for our project. Solana is one of the fastest blockchains out there with an estimated 50000 transactions-per-second 
+In decentralized apps, the backend is handled by a SMART CONTRACT.
+We coded on top of some example smart contracts provided by solana(specifically, their twitter smart contract)
+You can find the smart contracts in social/programs/social
 
-***Uncensored:*** Nothing can really be banned on this website. No voice is silenced.
-
-***Minimize misinformation:*** One can assume that the average user will be more honest than not, as you literally pay to make someone's voice heard. You also get paid more, as an author if your content is deemed credible by the community. This minimizes the possibility of misinformation spreading through the website.
-
-***Minimize trolling:*** As you have to pay to do any activity on this website, trolling is essentially terminated
-
+For the frontend, we used React.js
+You can find the frontend code in social/app
