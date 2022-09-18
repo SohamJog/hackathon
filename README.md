@@ -14,7 +14,8 @@ We aim to minimize **misinformation** and **trolling** through this incentivizat
 
 
 
-## Why Blockchain
+## Why Blockchain:
+
 ***Decentralized*** - you own your own data.  
 
 ***Anonymous***, if you want it to be  
