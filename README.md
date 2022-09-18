@@ -18,8 +18,9 @@ Upvoting works as tipping the author, thus incentivizing everyone to post credib
 
 ## Why NestNews
 
-***Run on a Blockchain:***
-Decentralized: You own your data, and don't worry about what big companies are doing with it
+###Run on a Blockchain:
+
+***Decentralized:*** You own your data, and don't worry about what big companies are doing with it
 Anonymous if you want it to be
 Permissionless
 
