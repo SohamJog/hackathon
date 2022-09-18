@@ -18,8 +18,8 @@ Upvoting works as tipping the author, thus incentivizing everyone to post credib
 
 ### Run on a Blockchain:
 
-***Decentralized:*** You own your data, and don't worry about what big companies are doing with it
-Anonymous if you want it to be
+***Decentralized:*** You own your data, and don't worry about what big companies are doing with it 
+Anonymous if you want it to be 
 Permissionless
 
 ***Uncensored:*** Nothing can really be banned on this website. No voice is silenced.
